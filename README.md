@@ -18,8 +18,10 @@ span of two days, where each instance was being labeled as either fraudulent or 
 Of the 284 807 instances, only 492 are labeled as fraudulent, which is only 0. 172%. This
 makes the data set highly unbalanced.
 Each instance contains 30 features, of which all are numerical. Due to confidentiality,
-28 out of the 30 features are not provided with more information. The only features
+28 out of the 30 features were transformed by using PCA. The only features
 that contain information about what they represent are the "time of transaction" and
 "amount of money per transaction". In case of fraud, the data instances are labeled 1 and
 0 otherwise. Data preprocessing will mainly focus on balancing the dataset, since other
 preprocessing factors have already been accounted for, such as missing data points.
+
+This project was made during my international semester in Seoul National University of Science and Technology in South Korea. The whole project was made by a group of four students. The jupyter notebook was only edited and commented by me but the report was done with the contribution of everyone. This was my first project in Machine learning and deep learning that's why there is a lot of room for improvement. However, the results are very convincing and I will improve this project as I gain knowledge and practice in the field.   
